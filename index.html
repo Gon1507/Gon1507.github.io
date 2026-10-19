@@ -1,23 +1,183 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
 
 <head>
-    <meta charset="utf-8">
-    <title>Gonçalo Barbosa Portfolio</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gonçalo Barbosa OS</title>
+
+    <!-- External Stylesheets & Typography -->
     <link rel="stylesheet" href="css/style.css">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;600&family=Inter:wght@400;600;800&display=swap"
+        rel="stylesheet">
+    <link rel="icon" href="img/icon.ico">
 </head>
 
 <body>
 
-    <header>
-        <ul>
-            <li><a href="pages/projects.html">Projects</a></li>
-            <li><a href="pages/aboutme.html">About me</a></li>
-            <li><a href="pages/contacts.html">Contacts</a></li>
-        </ul>
-    </header>
+    <!-- Top-Left Corner -->
+    <div class="desktop-corner-container">
+        <div class="icon" onclick="openWindow('games-win')">
+            <img src="img/dbd.png" alt="Dead by Daylight" class="icon-custom-img">
+            <span>Dead By Daylight</span>
+        </div>
+        <div class="icon" onclick="openWindow('games-win')">
+            <img src="img/re.png" alt="Resident Evil" class="icon-custom-img">
+            <span>Resident Evil</span>
+        </div>
+        <div class="icon" onclick="openWindow('games-win')">
+            <img src="img/lol.png" alt="League of Legends" class="icon-custom-img">
+            <span>League of Legends</span>
+        </div>
+        <div class="icon" onclick="openWindow('games-win')">
+            <img src="img/val.png" alt="Valorant" class="icon-custom-img">
+            <span>Valorant</span>
+        </div>
+    </div>
 
+    <!-- Bottom-Right Corner -->
+    <div class="desktop-bottomcorner-container">
+        <div class="icon" onclick="openWindow('recycle-win')">
+            <img src="img/rb.png" alt="Recycle Bin" class="icon-custom-img">
+            <span>Recycle Bin</span>
+        </div>
+    </div>
 
+    <!-- Primary OS Application Icons -->
+    <main class="desktop">
+        <div class="icons-center">
+            <div class="icon" onclick="openWindow('projects-win')">
+                <img src="img/folder.png" alt="Projects" class="icon-custom-img">
+                <span>Projects Folder</span>
+            </div>
+            <div class="icon" onclick="openWindow('about-win')">
+                <img src="img/notes.png" alt="About Me" class="icon-custom-img">
+                <span>About Me.txt</span>
+            </div>
+            <div class="icon" onclick="openWindow('terminal-win')">
+                <img src="img/cmd.png" alt="Terminal" class="icon-custom-img">
+                <span>Terminal.exe</span>
+            </div>
+            <div class="icon" onclick="openWindow('contact-win')">
+                <img src="img/contact.png" alt="Contacts" class="icon-custom-img">
+                <span>Contacts.app</span>
+            </div>
+        </div>
 
+        <!-- Application Window: Games & Hobbies -->
+        <section id="games-win" class="window">
+            <div class="window-header">
+                <span class="title">Games & Hobbies</span>
+                <button class="close-btn" onclick="closeWindow('games-win')">×</button>
+            </div>
+            <div class="window-body">
+                <h3>Favorite Games</h3>
+                <p>Gonçalo's favorite games to play when he's bored!</p>
+                <hr>
+                <div class="project-item">
+                    <h4>Dead by Daylight</h4>
+                    <p>Survivor & Killer main. Hours of stealth and chase!</p>
+                </div>
+                <div class="project-item">
+                    <h4>Resident Evil</h4>
+                    <p>Survival horror game with intense action and gripping story.</p>
+                </div>
+                <div class="project-item">
+                    <h4>League of Legends</h4>
+                    <p>Strategic MOBA game with a wide variety of champions.</p>
+                </div>
+                <div class="project-item">
+                    <h4>Valorant</h4>
+                    <p>Tactical 5v5 character-based shooter blending precise gunplay with unique agent abilities.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Application Window: Portfolio Projects -->
+        <section id="projects-win" class="window">
+            <div class="window-header">
+                <span class="title">Projects</span>
+                <button class="close-btn" onclick="closeWindow('projects-win')">×</button>
+            </div>
+            <div class="window-body">
+                <h3>Featured Work</h3>
+                <hr>
+                <div class="project-item" onclick="location.href='pages/police.html'">
+                    <h4>Criminal Case Summarization System</h4>
+                    <p>Web platform built for PJ using specialized LLM agents.</p>
+                </div>
+                <div class="project-item" onclick="location.href='pages/zerowaste.html'">
+                    <h4>Zero Waste Tracker App</h4>
+                    <p>Android app in Kotlin & MVVM to reduce food waste.</p>
+                </div>
+                <div class="project-item" onclick="location.href='pages/rentacar.html'">
+                    <h4>Rent-a-Car Management System</h4>
+                    <p>Full-stack web app with role-based access control.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Application Window: About Me -->
+        <section id="about-win" class="window">
+            <div class="window-header">
+                <span class="title">👨‍💻 About_Me.txt</span>
+                <button class="close-btn" onclick="closeWindow('about-win')">×</button>
+            </div>
+            <div class="window-body">
+                <h2>Gonçalo Barbosa</h2>
+                <p>Computer Science & Informatics Engineering Graduate (ISEL).</p>
+                <p>Passionate about AI/ML, LLM Agents, and Software Architecture.</p>
+            </div>
+        </section>
+
+        <!-- Application Window: Terminal -->
+        <section id="terminal-win" class="window">
+            <div class="window-header">
+                <span class="title">Terminal</span>
+                <button class="close-btn" onclick="closeWindow('terminal-win')">×</button>
+            </div>
+            <div class="window-body terminal-body">
+                <p class="term-line">> Gonçalo Barbosa OS v1.0.0</p>
+                <p class="term-line">> Status: Open for AI/ML opportunities!</p>
+                <p class="term-line">> Type 'help' or explore desktop icons.</p>
+            </div>
+        </section>
+
+        <!-- Application Window: Contacts -->
+        <section id="contact-win" class="window">
+            <div class="window-header">
+                <span class="title">Contact.app</span>
+                <button class="close-btn" onclick="closeWindow('contact-win')">×</button>
+            </div>
+            <div class="window-body">
+                <p><strong>Email:</strong> goncalomob07@gmail.com</p>
+                <p><strong>LinkedIn:</strong> linkedin.com/in/goncalo-barbosa-567204330</p>
+                <p><strong>GitHub:</strong> github.com/Gon1507</p>
+            </div>
+        </section>
+
+        <!-- Application Window: Recycle Bin -->
+        <section id="recycle-win" class="window">
+            <div class="window-header">
+                <span class="title">Recycle Bin</span>
+                <button class="close-btn" onclick="closeWindow('recycle-win')">×</button>
+            </div>
+            <div class="window-body">
+                <h3>System Trash</h3>
+                <p>Where forgotten assignments and late-night debug sessions rest in peace.</p>
+                <hr>
+                <div class="project-item" style="cursor: default; transform: none;">
+                    <h4>Student Manifesto</h4>
+                    <p><em>Never EVER let anyone or anything crush your dreams and your passions that you so want to
+                            pursue.</em></p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Main Logic Script: tIME (So far) -->
+    <script src="js/script.js"></script>
 </body>
 
 </html>
