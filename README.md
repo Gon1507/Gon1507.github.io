@@ -1,44 +1,61 @@
-# Portfolio - Gonçalo Barbosa
+<div align="center">
 
-## Hey there! My name is Gonçalo Barbosa! 👋
+<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=200&section=header&text=Gon%C3%A7alo%20Barbosa&fontSize=50&animation=fadeIn&fontAlignY=38&desc=Portfolio&descAlignY=58" alt="header"/>
 
-<p align="justify">
-Welcome to my Portfolio Repository! I'm currently a student/developer at Instituto Superior de Engenharia de Lisboa (ISEL), finishing my Bachelor's Degree in Computer Science and Multimedia.
-</p>
+<a href="https://Gon1507.github.io">
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&pause=1000&color=000000&center=true&vCenter=true&width=600&lines=Hey+there%21+I%27m+Gon%C3%A7alo+Barbosa;Welcome+to+my+Portfolio%21;Computer+Science+%26+Multimedia+Graduate;AI%2FML+Enthusiast%21;Always+open+to+new+experiences%21" alt="Typing animation"/>
+</a>
 
-<p align="justify">
-My passion for multimedia began in my childhood, growing up surrounded by the internet and video games. Now, as I complete my degree, I have developed the skills to apply practical knowledge in software engineering, 3D design and modeling, and UI/UX Design.
-</p>
+<br/>
 
-<p align="justify">
-My areas of interest include multimedia design, video editing, game development, mobile apps, and software development.
-</p>
+[![Portfolio](https://img.shields.io/badge/Portfolio-6C63FF?style=flat-square&logo=githubpages&logoColor=white)](https://Gon1507.github.io) [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=data:image/svg%2bxml;base64,PHN2ZyByb2xlPSJpbWciIHZpZXdCb3g9IjAgMCAyNCAyNCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiBmaWxsPSJ3aGl0ZSI+PHRpdGxlPkxpbmtlZEluPC90aXRsZT48cGF0aCBkPSJNMjAuNDQ3IDIwLjQ1MmgtMy41NTR2LTUuNTY5YzAtMS4zMjgtLjAyNy0zLjAzNy0xLjg1Mi0zLjAzNy0xLjg1MyAwLTIuMTM2IDEuNDQ1LTIuMTM2IDIuOTM5djUuNjY3SDkuMzUxVjloMy40MTR2MS41NjFoLjA0NmMuNDc3LS45IDEuNjM3LTEuODUgMy4zNy0xLjg1IDMuNjAxIDAgNC4yNjcgMi4zNyA0LjI2NyA1LjQ1NXY2LjI4NnpNNS4zMzcgNy40MzNhMi4wNjIgMi4wNjIgMCAwMS0yLjA2My0yLjA2NSAyLjA2NCAyLjA2NCAwIDExMi4wNjMgMi4wNjV6bTEuNzgyIDEzLjAxOUgzLjU1NVY5aDMuNTY0djExLjQ1MnpNMjIuMjI1IDBIMS43NzFDLjc5MiAwIDAgLjc3NCAwIDEuNzI5djIwLjU0MkMwIDIzLjIyNy43OTIgMjQgMS43NzEgMjRoMjAuNDUxQzIzLjIgMjQgMjQgMjMuMjI3IDI0IDIyLjI3MVYxLjcyOUMyNCAuNzc0IDIzLjIgMCAyMi4yMjIgMGguMDAzeiIvPjwvc3ZnPgo=)](https://www.linkedin.com/in/goncalo-barbosa-567204330/) [![Email](https://img.shields.io/badge/Email-EA4335?style=flat-square&logo=gmail&logoColor=white)](mailto:goncalomob07@gmail.com) [![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/Gon1507)
 
-<p align="justify">
-This repository contains the beginning, and hopefully the development 😆, of the source code for my personal website, where I want to share and showcase the projects I've developed throughout my studies.
-</p>
+</div>
 
-Website: **Check out my live Portfolio here (as it develops): [Portfolio - Gonçalo Barbosa](https://Gon1507.github.io)**
+---
 
-## Tools & Languages
+## -- `whoami` \:P
 
-* **Tools:** Git, GitHub, VSCode, IntelliJ...
-* **Languages:** HTML, CSS, JavaScript, Java, Python, Kotlin...
+```bash
+>>> import profile
+>>> me = profile.load("Gonçalo Barbosa")
+>>> me.get_education()
+>>> me.about_me()
+>>> me.get_focus()
+>>> me.get_status()
+>>> me.contact_info()
 
-## Projects
+BSc in Computer Science & Informatics Engineering Graduate @ISEL
 
-<p align="justify">
-Here are some of the most relevant projects I have to showcase. You can definitely find more details and the full source code in each their repositories.
-</p>
+Recent BSc graduate in Computer Science and Informatics Engineering from ISEL. 
+Built an LLM-agent platform for the Portuguese Criminal Investigation 
+Police and worked on a legacy Java to cloud migration at Accenture. 
+Looking for an AI/ML engineering role, backed by a solid base  in Python, Java and Android.
 
-### 1. [Project Name]
-* **Overview:** [Goal in 1-2 sentences]
-* **Technologies:** [Language1, Language2]
-*  [Project Name](link-to-project-1-repository)
+[AI/ML Engineering", "LLM Agents", "Software Architecture", "Cloud]
 
-## Connections!
+{
+    languages: ["Python", "Java", "Kotlin", "SQL", "JavaScript"],
+    ai_backend: ["LLM Agents", "Prompt Engineering", "Docker", "REST APIs"],
+    mobile_tools: ["Android SDK", "Jetpack Compose", "Firebase", "Blender"]
+}
 
-I'm always open to new adventures, new opportunities or challenges that may come!
 
-* **LinkedIn:** [Gonçalo Barbosa - LinkedIn](https://www.linkedin.com/in/goncalo-barbosa-567204330/)
-* **Email:** goncalomob07@gmail.com
+Ready for new opportunities in AI/ML & Software Engineering!
+[✓] Portfolio Live: https://Gon1507.github.io
+
+{
+    Email: 'goncalomob07@gmail.com',
+    LinkedIn: 'linkedin.com/in/goncalo-barbosa-567204330',
+    GitHub: 'github.com/Gon1507'
+}
+```
+
+---
+
+## -- `githubstats` \:O
+
+<div align="center">
+  <img height="150" src="https://github-readme-stats.vercel.app/api?username=Gon1507&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" alt="Gonçalo's GitHub Stats"/>
+  &nbsp; <img height="150" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Gon1507&layout=compact&theme=tokyonight&hide_border=true&langs_count=6" alt="Most Used Languages"/>
+</div>
