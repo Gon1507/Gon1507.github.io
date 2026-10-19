@@ -3,7 +3,7 @@
 <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=200&section=header&text=Gon%C3%A7alo%20Barbosa&fontSize=50&animation=fadeIn&fontAlignY=38&desc=Portfolio&descAlignY=58" alt="header"/>
 
 <a href="https://Gon1507.github.io">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&pause=1000&color=000000&center=true&vCenter=true&width=600&lines=Hey+there%21+I%27m+Gon%C3%A7alo+Barbosa;Welcome+to+my+Portfolio%21;Computer+Science+%26+Multimedia+Graduate;AI%2FML+Enthusiast%21;Always+open+to+new+experiences%21" alt="Typing animation"/>
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&pause=1000&color=FFFFFF&center=true&vCenter=true&width=600&lines=Hey+there%21+I%27m+Gon%C3%A7alo+Barbosa;Welcome+to+my+Portfolio%21;Computer+Science+%26+Multimedia+Graduate;AI%2FML+Enthusiast%21;Always+open+to+new+experiences%21" alt="Typing animation"/>
 </a>
 
 <br/>
@@ -57,5 +57,5 @@ Ready for new opportunities in AI/ML & Software Engineering!
 
 <div align="center">
   <img height="150" src="https://github-readme-stats.vercel.app/api?username=Gon1507&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" alt="Gonçalo's GitHub Stats"/>
-  &nbsp; <img height="150" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Gon1507&layout=compact&theme=tokyonight&hide_border=true&langs_count=6" alt="Most Used Languages"/>
+  &nbsp; <img height="200" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Gon1507&layout=compact&theme=tokyonight&hide_border=true&langs_count=6" alt="Most Used Languages"/>
 </div>
