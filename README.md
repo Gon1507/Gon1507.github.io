@@ -50,12 +50,3 @@ Ready for new opportunities in AI/ML & Software Engineering!
     GitHub: 'github.com/Gon1507'
 }
 ```
-
----
-
-## -- `githubstats` \:O
-
-<div align="center">
-  <img height="150" src="https://github-readme-stats.vercel.app/api?username=Gon1507&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" alt="Gonçalo's GitHub Stats"/>
-  &nbsp; <img height="200" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Gon1507&layout=compact&theme=tokyonight&hide_border=true&langs_count=6" alt="Most Used Languages"/>
-</div>

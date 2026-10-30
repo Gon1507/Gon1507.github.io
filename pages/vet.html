@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en" class="red-theme">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Veterinary Clinic Management</title>
+  <link href="https://fonts.googleapis.com/css2?family=Fira+Code&family=Inter:wght@400;600;700&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="../css/style.css">
+  <link rel="stylesheet" href="../css/pagestyle.css">
+  <link rel="icon" href="../img/icon.ico">
+</head>
+
+<body>
+  <a class="voltar" href="../index.html">Back to the Main Page</a>
+
+  <main class="pagina">
+
+    <header>
+      <h1>Veterinary Clinic Management</h1>
+      <h2>System for Managing a Veterinary Clinic</h2>
+      <p class="descricao">
+        Web application for running a veterinary clinic, managing veterinarians, animals, clinical records,
+        appointments and management reports, on a relational schema designed from the domain.
+      </p>
+
+      <ul class="etiquetas">
+        <li class="etiqueta">2025</li>
+        <li class="etiqueta">Developer</li>
+        <li class="etiqueta">Completed</li>
+      </ul>
+
+    </header>
+
+    <div class="colunas">
+
+      <div class="coluna-principal">
+
+        <section>
+          <h2>About</h2>
+          <p>
+            This project starts from a problem every
+            clinic has. Knowing who owns each animal, which breed it belongs to, which service was
+            performed and by whom. Done on paper or in spreadsheets, those answers stop scaling as
+            soon as the clinic needs to know what is scheduled for tomorrow or how much was cancelled
+            last quarter.
+          </p>
+          <p>
+            The application gives each of the four roles its own area: receptionists register tutors
+            and animals and book services, veterinarians follow the call list and write clinical
+            records, tutors check their animals' history and manage their own appointments, and the
+            manager handles staff records, statistics and XML import/export.
+          </p>
+          <p>
+            The Java code talks to MySQL over JDBC, with the SQL written by hand instead of through an
+            ORM.
+          </p>
+        </section>
+
+        <section>
+          <h2>Features</h2>
+          <ul class="funcionalidades">
+            <li>Role-based areas for tutor, receptionist, veterinarian and manager</li>
+            <li>Registration of tutors, which can be individuals or companies and animals, with breed, colours and allergies</li>
+            <li>Appointment booking with availability taken from the weekly shifts</li>
+            <li>Clinical records with symptoms, diagnosis, prescriptions, vaccination and surgery data</li>
+            <li>Call list of the day and the full clinical history of each animal</li>
+            <li>Genealogical tree of an animal, walking up through its ancestors</li>
+            <li>Weekly forecast, animals past their breed's life expectancy, overweight animals and top cancellations</li>
+            <li>XML export and import of tutor and animal records</li>
+          </ul>
+        </section>
+
+      </div>
+
+      <aside class="lateral">
+
+        <div class="painel">
+          <h2>Technologies</h2>
+          <ul class="etiquetas">
+            <li class="etiqueta">Java 17</li>
+            <li class="etiqueta">Jakarta Servlets</li>
+            <li class="etiqueta">JSP</li>
+            <li class="etiqueta">MySQL</li>
+            <li class="etiqueta">JDBC</li>
+            <li class="etiqueta">Maven</li>
+            <li class="etiqueta">Tomcat</li>
+          </ul>
+        </div>
+
+        <div class="painel">
+          <h2>Links</h2>
+          <a class="botao" href="https://github.com/Gon1507/Vet-Clinic" target="_blank">
+            GitHub Code
+            <small>Project repository</small>
+          </a>
+        </div>
+
+      </aside>
+
+    </div>
+
+    <section>
+      <h2>Database</h2>
+      <p class="nota">
+        22 tables and 4 views, modelled around the domain rather than around the screens.
+      </p>
+      <div class="colunas">
+        <div class="coluna-principal">
+          <ul class="funcionalidades">
+            <li>Tutors are specialised into individuals and companies, each with its own attributes</li>
+            <li>Staff is specialised into veterinarians and receptionists</li>
+            <li>Appointments are a service hierarchy, including consultations, vaccinations, surgeries, exams and deworming</li>
+            <li>Animals link to breed and species, with colours and allergies in many-to-many tables</li>
+            <li>Weekly shifts define per-veterinarian availability used when booking</li>
+            <li>Clinical history is stored per service, keeping diagnosis and prescriptions</li>
+          </ul>
+        </div>
+        <aside class="lateral">
+          <div class="painel">
+            <h2>The Schema</h2>
+            <p>
+              22 tables, 4 views and 6 SQL scripts — from the schema itself and the sample data to
+              the shifts and the family trees used by the genealogy view.
+            </p>
+          </div>
+        </aside>
+      </div>
+    </section>
+
+    <section>
+      <h2>System Interface</h2>
+      <p class="nota">
+        From the login to the management reports. All data shown is fictitious.
+      </p>
+      <div class="screenshots">
+        <img src="../img/vet-login.png" alt="Login screen">
+        <img src="../img/book-appoint.png" alt="Booking screen">
+        <img src="../img/geo.png" alt="Family Tree">
+        <img src="../img/clinichist.png" alt="Clinical History">
+        <img src="../img/clinicallist.png" alt="Clinical List">
+        <img src="../img/stats.png" alt="Management reports">
+      </div>
+    </section>
+
+  </main>
+
+  <div class="taskbar">
+    <a href="../index.html">Gonçalo Barbosa OS</a>
+  </div>
+
+</body>
+
+</html>

@@ -240,6 +240,30 @@ body {
     animation: blink 1s steps(1) infinite;
 }
 
+.taskbar {
+  position: fixed;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  height: 23px;
+  z-index: 60;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 16px;
+  background: rgba(16, 18, 30, 0.85);
+  backdrop-filter: blur(12px);
+  border-top: 1px solid var(--edge);
+  font-size: 0.8rem;
+  color: var(--text);
+}
+
+.taskbar a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: 600;
+}
+
 @keyframes pop {
     from { opacity: 0; scale: 0.92; }
 }
