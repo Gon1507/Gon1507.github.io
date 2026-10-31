@@ -29,9 +29,19 @@
   --background: rgba(56, 34, 75, 0.8);
 }
 
+.blue-theme {
+  --destaque: #8b93ff;
+  --destaque-fraco: rgba(139, 147, 255, 0.14);
+  --destaque-borda: rgba(139, 147, 255, 0.5);
+  --cartao: rgba(24, 22, 42, 0.72);
+  --fundo: rgba(20, 18, 36, 0.55);
+  --background: rgba(36, 34, 62, 0.6);
+}
+
 body {
   overflow-y: auto;
   background-attachment: fixed;
+  font-weight: 600;
 }
 
 body::before {
@@ -262,6 +272,11 @@ ul {
   width: 100%;
   border-radius: 14px;
   border: 1px solid var(--edge);
+}
+
+.contact-cards {
+  display: grid;
+  gap: 12px;
 }
 
 @media (max-width: 768px) {
