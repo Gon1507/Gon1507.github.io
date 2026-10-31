@@ -29,13 +29,13 @@
   --background: rgba(56, 34, 75, 0.8);
 }
 
-.blue-theme {
-  --destaque: #8b93ff;
-  --destaque-fraco: rgba(139, 147, 255, 0.14);
-  --destaque-borda: rgba(139, 147, 255, 0.5);
-  --cartao: rgba(24, 22, 42, 0.72);
-  --fundo: rgba(20, 18, 36, 0.55);
-  --background: rgba(36, 34, 62, 0.6);
+.yellow-theme {
+  --destaque: #d48806;
+  --destaque-fraco: rgba(212, 136, 6, 0.15);
+  --destaque-borda: rgba(212, 136, 6, 0.55);
+  --cartao: rgba(51, 35, 15, 0.74);
+  --fundo: rgba(38, 25, 10, 0.6);
+  --background: rgba(71, 49, 21, 0.8);
 }
 
 body {
