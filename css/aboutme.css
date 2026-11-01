@@ -1,0 +1,279 @@
+.about-container {
+    max-width: 1050px;
+    margin: 0 auto;
+    padding: 110px 25px 100px;
+    display: flex;
+    flex-direction: column;
+    gap: 55px;
+}
+
+.about-hero {
+    display: grid;
+    grid-template-columns: 270px 1fr;
+    align-items: center;
+    gap: 45px;
+}
+
+.about-photo {
+    position: relative;
+    border-radius: 18px;
+    overflow: hidden;
+    border: 1px solid var(--destaque-borda);
+    background: var(--cartao);
+    box-shadow: 0 15px 40px rgba(0, 0, 0, 0.25);
+}
+
+.about-photo img {
+    display: block;
+    width: 100%;
+    aspect-ratio: 4 / 5;
+    object-fit: cover;
+}
+
+.photo-label {
+    position: absolute;
+    bottom: 12px;
+    left: 12px;
+    padding: 6px 10px;
+    border-radius: 7px;
+    background: rgba(10, 20, 14, 0.85);
+    border: 1px solid var(--destaque-borda);
+    color: white;
+    font-family: monospace;
+    font-size: 0.7rem;
+}
+
+.about-tag {
+    color: var(--destaque);
+    font-size: 0.8rem;
+    letter-spacing: 3px;
+    font-weight: 700;
+}
+
+.about-intro h1 {
+    margin: 12px 0;
+    font-size: clamp(2.5rem, 6vw, 4rem);
+}
+
+.about-intro h2 {
+    color: var(--destaque);
+    margin-bottom: 18px;
+}
+
+.about-intro p {
+    max-width: 600px;
+    line-height: 1.9;
+}
+
+.about-buttons {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+    margin-top: 25px;
+}
+
+.about-button {
+    display: inline-block;
+    padding: 11px 18px;
+    border-radius: 9px;
+    background: var(--destaque-fraco);
+    border: 1px solid var(--destaque-borda);
+    color: white;
+    text-decoration: none;
+    font-size: 0.85rem;
+    font-weight: 600;
+    transition: 0.2s;
+}
+
+.about-button:hover {
+    transform: translateY(-3px);
+    background: var(--destaque-borda);
+}
+
+.about-button.secondary {
+    background: transparent;
+}
+
+.about-section {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.section-heading {
+    display: flex;
+    align-items: center;
+    gap: 14px;
+}
+
+.section-heading span {
+    color: var(--destaque);
+    font-family: monospace;
+    font-size: 0.85rem;
+}
+
+.section-heading h2 {
+    margin: 0;
+}
+
+.about-card {
+    padding: 25px;
+    border-radius: 15px;
+    background: var(--cartao);
+    border: 1px solid var(--edge);
+    backdrop-filter: blur(14px);
+}
+
+.about-card p:last-child {
+    margin-bottom: 0;
+}
+
+.timeline {
+    display: grid;
+    gap: 25px;
+    padding-left: 10px;
+}
+
+.timeline-item {
+    position: relative;
+    display: flex;
+    gap: 20px;
+}
+
+.timeline-dot {
+    flex: 0 0 12px;
+    width: 12px;
+    height: 12px;
+    margin-top: 7px;
+    border-radius: 50%;
+    background: var(--destaque);
+    box-shadow: 0 0 12px var(--destaque-fraco);
+}
+
+.timeline-content {
+    padding: 0 0 10px;
+}
+
+.timeline-label {
+    color: var(--destaque);
+    font-size: 0.7rem;
+    letter-spacing: 1.5px;
+}
+
+.timeline-content h3 {
+    margin: 7px 0;
+}
+
+.timeline-content p {
+    margin-bottom: 5px;
+}
+
+.timeline-content small {
+    opacity: 0.6;
+}
+
+.skills-grid {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 15px;
+}
+
+.skill-card {
+    padding: 22px;
+    border-radius: 14px;
+    background: var(--cartao);
+    border: 1px solid var(--edge);
+    transition: 0.2s;
+}
+
+.skill-card:hover {
+    border-color: var(--destaque-borda);
+    transform: translateY(-3px);
+}
+
+.skill-icon {
+    display: inline-block;
+    color: var(--destaque);
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+.skill-card h3 {
+    margin: 0 0 8px;
+    font-size: 1rem;
+}
+
+.skill-card p {
+    font-size: 0.85rem;
+    margin: 0;
+}
+
+.interests-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+}
+
+.interests-list span {
+    padding: 9px 15px;
+    border-radius: 999px;
+    background: var(--destaque-fraco);
+    border: 1px solid var(--destaque-borda);
+    font-size: 0.8rem;
+}
+
+.about-contact {
+    padding: 35px;
+    text-align: center;
+    border-radius: 17px;
+    background: var(--cartao);
+    border: 1px solid var(--edge);
+}
+
+.about-contact h2 {
+    margin-bottom: 12px;
+}
+
+.about-contact p {
+    text-align: center;
+    margin-bottom: 22px;
+}
+
+@media (max-width: 700px) {
+
+    .about-container {
+        padding: 95px 18px 75px;
+        gap: 40px;
+    }
+
+    .about-hero {
+        grid-template-columns: 1fr;
+        gap: 25px;
+    }
+
+    .about-photo {
+        max-width: 260px;
+        margin: 0 auto;
+    }
+
+    .about-intro {
+        text-align: center;
+    }
+
+    .about-intro p {
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .about-buttons {
+        justify-content: center;
+    }
+
+    .skills-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .about-contact {
+        padding: 25px 18px;
+    }
+}
